@@ -701,7 +701,8 @@ export const actionChangeFontFamily = register({
         text: t("labels.code"),
         icon: FontFamilyCodeIcon,
       },
-      { value: FONT_FAMILY.Chinese, 
+      {
+        value: FONT_FAMILY.Chinese, 
         text: t("labels.handChinese"), 
         icon: FreedrawIcon, 
       },
